@@ -1,0 +1,120 @@
+
+#header{
+    float:left;
+    width:10%;
+    height:100%;
+    background-color: brown;
+}
+
+#header>#logo{
+    width:100%;
+    height:50px;
+    background-color: #2b2b2b;
+    padding:15px 10px;
+    box-sizing: border-box;
+}
+#header>#nav{
+
+}
+#header>#nav>ul>li{
+
+}
+#gnb>li>a{
+    font-size:0;
+    display:block;
+    width:100%;
+    height:37px;
+    background-color: darkkhaki;
+    cursor: pointer;
+    color:#777;
+}
+#lnb>li>a{
+    display:block;
+    width:100%;
+    height:40px;
+    background-color: #474747;
+    cursor: pointer;
+    color:#777;
+    font-size:12px;
+    font-weight: bold;
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+#lnb{
+    
+}
+.gnb_active{
+    background-color: tomato !important;
+}
+.lnb_active{
+    color:#fff !important;
+}
+.open{
+    display:block;
+}
+.close{
+    display:none;
+}
+/*헤더 이미지 스프라이트*/
+.menu{
+    display:block;
+    background: url("../../images/header/sp_nav.png");
+    width:148px;
+    height:37px;
+}
+.home{
+    background-position: 0px 0px;
+}
+.home_active{
+    background-position: -150px 0px;
+}
+.running{
+    background-position: 0px -39px;
+}
+.running_active{
+    background-position: -150px -39px;
+}
+.rank{
+    background-position: 0px -78px;
+}
+.rank_active{
+    background-position: -149px -78px;
+}
+
+.preview_event{
+    background-position: 0px -194px;
+}
+
+.preview_event_active{
+    background-position: -149px -194px;
+}
+
+.point_review{
+    background-position: 0px -233px;
+}
+.point_review_active{
+    background-position: -149px -233px;
+}
+.download{
+    background-position: 0px -272px;
+}
+.download_active{
+    background-position: -149px -272px;
+}
+.indi{
+    background-position: 0px -315px;
+}
+#indi_logo>a{
+    font-size: 0;
+}
+
+.lnb_arrow {
+    display:inline-block;
+	background: url('../../images/sprites/sp_ico3.png') no-repeat -124px -90px;
+	width: 3px;
+	height: 6px;
+
+    position: relative;
+    left:-5px;
+    top:-3px;
+}

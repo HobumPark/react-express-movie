@@ -1,0 +1,59 @@
+
+#notice{
+    width:100%;
+    height:150px;
+    background-color: purple;
+}
+
+#notice>#head{
+    width:100%;
+    height:50px;
+    background-color: rosybrown;
+    padding:10px 30px;
+    box-sizing: border-box;
+}
+#notice>#head>div{
+    width:90%;
+    height:35px;
+    background-color: seashell;
+    border-bottom: 2px solid #777;
+    padding:5px 5px;
+    box-sizing: border-box;
+}
+#notice>#head>div>span:nth-child(2){
+    font-size:13px;
+    position: relative;
+    left:15px;
+    top:-3px;
+}
+#notice>#head>div>span:nth-child(2)>b{
+    color: #f24443;
+    display:inline-block;
+}
+#notice>#head>div>span:nth-child(2)>h6{
+    display:inline-block;
+}
+
+#notice>#contents{
+    width:100%;
+    height:100px;
+    background-color: royalblue;
+    padding:10px 30px;
+    box-sizing: border-box;
+}
+
+.notice{
+    display:inline-block;
+    background: url('../../images/sprites/h_tx_sp2.png') no-repeat -60px -164px;
+	width: 59px;
+	height: 15px;
+}
+
+.info {
+    display:inline-block;
+	background: url('../../images/sprites/sp_ico3.png') no-repeat -62px -90px;
+	width: 14px;
+	height: 14px;
+
+    margin-right:10px;
+}

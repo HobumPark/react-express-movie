@@ -1,0 +1,14 @@
+#download{
+    width:100%;
+    height:auto;
+    background-color: burlywood;
+    text-align: center;
+    padding-bottom:20px;
+    box-sizing: border-box;
+}
+
+#download>h1{
+    background-color: paleturquoise;
+    text-align: center;
+    margin-bottom: 10px;
+}

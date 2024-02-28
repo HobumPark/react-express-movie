@@ -1,0 +1,64 @@
+
+#home-contents03{
+    width:100%;
+    height:250px;
+    background-color: palevioletred;
+    border-top: 3px solid #f2f2f2;
+}
+#home-contents03>#head{
+    width:100%;
+    height:50px;
+    background-color: rosybrown;
+    padding:10px 30px;
+    box-sizing: border-box;
+}
+#home-contents03>#contents{
+    width:100%;
+    height:250px;
+    background-color: royalblue;
+    padding:10px 30px;
+    box-sizing: border-box;
+}
+#home-contents03>#contents>div{
+    float:left;
+    width:16%;
+    height:80%;
+    /* background-color: skyblue; */
+    margin-right:5px;
+}
+#home-contents03>#contents>div>img{
+    display:block;
+    width:143px;
+    height:140px;
+    margin:0 auto;
+}
+#home-contents03>#contents>div>span{
+    background-color: antiquewhite;
+    margin-bottom:5px;
+    display:block;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#home-contents03>#contents>div>span:nth-child(2){
+    color:#004CBB;
+    font-weight: bold;
+}
+#home-contents03>#contents>div>span:nth-child(2):hover{
+    text-decoration: underline;
+}
+#home-contents03>#contents>div>span:nth-child(3){
+    color:#666666;
+}
+#home-contents03>#contents>div>span:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+.photo{
+    display:block;
+    background: url('../../images/sprites/h_tx_sp5.png') no-repeat 0 -101px;
+	width: 34px;
+	height: 16px;
+}

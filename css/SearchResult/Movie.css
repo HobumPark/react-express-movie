@@ -1,0 +1,123 @@
+
+#movie{
+    width:95%;
+    height:160px;
+    background-color: tan;
+    margin:10px 20px;
+    border-radius: 10px;
+}
+/*영화 정보-왼쪽*/
+#movie>#movie-left{
+    float:left;
+    width:20%;
+    height:100%;
+    background-color: olivedrab;
+    padding:10px 5px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#movie-left>a>img{
+    display:block;
+    width: 110px;
+    height:140px;
+    border-radius: 10px;
+    margin:0 auto;
+    cursor: pointer;
+}
+
+/*영화 정보-오른쪽*/
+#movie>#movie-right{
+    float:left;
+    width:80%;
+    height:100%;
+    background-color: orange;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#movie-right>div{
+    width:95%;
+    height:40px;
+}
+#movie-right>#movie-title{
+    background-color: palegoldenrod;
+    padding:5px 10px;
+    box-sizing: border-box;
+    
+}
+#movie-right>#movie-title>a{
+    color:#1E4FAD;
+    cursor: pointer;
+}
+#movie-right>#movie-title>a:hover{
+    text-decoration: underline;
+}
+#movie-right>#movie-title>a>span:first-child{
+    font-weight: bold;
+    margin-right:5px;
+}
+
+#movie-right>#movie-rating{
+    background-color: palegreen;
+    position: relative;
+}
+#movie-right>#movie-genre{
+    background-color: paleturquoise;
+    padding:5px 10px;
+    box-sizing: border-box;
+
+    font-weight: bold;
+}
+#movie-right>#movie-director-actor{
+    background-color: palevioletred;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+    padding:10px 10px;
+    box-sizing: border-box;
+}
+#movie-director-actor>#movie-director{
+    background-color: papayawhip;
+    margin-right: 15px;
+}
+#movie-director-actor>#movie-actor{
+    background-color: peachpuff;
+}
+
+#movie-actor>#actor::after{
+    content:',';
+}
+
+#movie-actor>span>:last-child::after{
+    content:'';
+}
+
+/*평점을 위한 아이콘*/
+.rank_red{
+    display:inline-block;
+    background: url('../../images/sprites/sp_ico3.png') no-repeat 0 -140px;
+	width: 73px;
+	height: 12px;
+
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+.rank_grey{
+    display:inline-block;
+    background: url('../../images/sprites/sp_ico3.png') no-repeat 0 -154px;
+	width: 73px;
+	height: 12px;
+
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+
+.user_rating{
+    position: absolute;
+    left:90px;
+    top:5px; 
+    font-weight: bold;
+}

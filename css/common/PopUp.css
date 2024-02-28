@@ -1,0 +1,54 @@
+
+#popup{
+    width:700px;
+    height:1000px;
+    background-color: gold;
+    position: fixed;
+    z-index: 9;
+    left:20%;
+    top:10%;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#popup>a{
+    display:block;
+    width:100%;
+    height:950px;
+    background-color: greenyellow;
+}
+#popup>a>img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+#popup>#btn-area{
+    width:100%;
+    height:45px;
+    background-color: goldenrod;
+    padding:10px;
+    box-sizing: border-box;
+}
+#popup>#btn-area>input{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+#popup>#btn-area>span{
+    position: relative;
+    left:10px;
+    top:-2px;
+}
+#popup>#btn-area>button{
+    float:right;
+    width:60px;
+    height:30px;
+    cursor: pointer;
+}
+#popup>#btn-area>button>img{
+    display:block;
+    width: 100%;
+    height:100%;
+}

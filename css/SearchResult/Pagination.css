@@ -1,0 +1,36 @@
+
+#pagination{
+    width:100%;
+    height:10%;
+    background-color: thistle;
+    text-align: center;
+}
+#pagination-inner{
+    display: inline-block;
+    margin:0 auto;
+    height:100%;
+    background-color: tomato;
+}
+
+#page{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    margin:5px;
+    background-color: #fff;
+    border: 1px solid #333;
+    text-align: center;
+    padding-top:6px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#page:hover{
+    background-color: #777;
+}
+
+.active{
+    color:#FF7632;
+    background-color: #777 !important;
+}

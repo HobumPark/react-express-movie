@@ -1,0 +1,163 @@
+
+#main-contents{
+    width:95%;
+    height:95%;
+    margin:0 auto;
+    background-color: lemonchiffon;
+}
+
+#main-contents>#main-contents-summary{
+    width:100%;
+    height:200px;
+    background-color: pink;
+    overflow: hidden;
+    padding:10px;
+    box-sizing: border-box;
+}
+#main-contents-summary-text{
+    width:90%;
+    height:170px;
+    background-color: peachpuff;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding:10px;
+    box-sizing: border-box;
+}
+#see-more-btn{
+    width:90%;
+    height:30px;
+    background-color: plum;
+}
+
+/*출연진 정보*/
+#main-contents>#main-contents-crew{
+    width:100%;
+    height:300px;
+    background-color: palegreen;
+}
+#main-contents-crew>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+}
+#main-contents-crew>h1>a{
+    font-size:16px;
+    float:right;
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    border:1px solid #777;
+    text-align: center;
+    cursor: pointer;
+    padding-top:5px;
+    box-sizing: border-box;
+}
+#main-contents-crew>#main-contents-crew-contents{
+    width:100%;
+    height:90%;
+    background-color: cadetblue;
+    padding-top:20px; 
+    padding-left:30px;
+    box-sizing: border-box;
+}
+
+/*영상/포토*/
+#main-contents>#main-contents-movie-photo{
+    width:100%;
+    height:420px;
+    background-color: brown;
+}
+#main-contents-movie-photo>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+}
+#main-contents-movie-photo>h1>a{
+    font-size:16px;
+    float:right;
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    border:1px solid #777;
+    text-align: center;
+    cursor: pointer;
+    padding-top:5px;
+    box-sizing: border-box;
+}
+#main-contents-movie-photo>#main-contents-movie-photo-contents{
+    width:100%;
+    height:90%;
+    background-color: cadetblue;
+    padding-left:30px;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+
+#movie-photo-row-01>div{
+    width:47%;
+    float:left;
+    margin-right:20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#movie-photo-row-01>div>img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+#movie-photo-row-02>div{
+    width:22%;
+    height:113px;
+    float:left;
+    margin-right:27px;
+    cursor: pointer;
+}
+#movie-photo-row-02>div>img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+
+#main-crew{
+    display:inline-block;
+    width:120px;
+    height:230px;
+    margin-right:20px;
+    background-color: silver;
+}
+#main-crew>span{
+    display:block;
+}
+#main-crew>a>img{
+    border-radius: 10px;
+}
+#main-crew>span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#main-crew>span:nth-child(2){
+    color:#000000;
+}
+#main-crew>span:nth-child(3){
+    color:#98989C;
+}
+
+.more-right-arrow {
+    display:inline-block;
+	background: url('../../../images/sprites/ico_movie_230210.png') no-repeat -260px -60px;
+	width: 8px;
+	height: 14px;
+
+    position: relative;
+    left:10px;
+}
+
+.arrow-down {
+    display:inline-block;
+    background: url('../../../images/sprites/ico_movie_230210.png') no-repeat -260px -40px;
+	width: 12px;
+	height: 7px;
+
+    position: relative;
+    left:10px;
+}

@@ -1,0 +1,135 @@
+#movie-preview-view{
+    width:100%;
+    height:850px;
+    background-color: chartreuse;
+}
+
+#movie-preview-view-btn{
+    width:100%;
+    height:100px;
+    background-color: darkkhaki;
+    padding:20px;
+    box-sizing: border-box;
+}
+#movie-preview-view-btn>button{
+    width:150px;
+    height:50px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border:none;
+    font-size:20px;
+    font-weight: bold;
+}
+#movie-preview-view-btn>button:hover{
+    background-color: #333;
+    color:#fff;
+    cursor: pointer;
+}
+#update-btn{
+    margin-right:10px;
+}
+#list-btn{
+    float:right;
+}
+
+#movie-preview-view-title{
+    width:100%;
+    height:100px;
+    background-color: darkcyan;
+}
+#movie-preview-view-title>span{
+    float:left;
+    height:100%;
+    font-size:20px;
+    text-align: center;
+    padding-top:40px;
+    box-sizing: border-box;
+}
+#movie-preview-view-title>span:first-child{
+    width:10%;
+    background-color: palegoldenrod;
+}
+#movie-preview-view-title>span:nth-child(2){
+    width:50%;
+    background-color: palegreen;
+}
+#movie-preview-view-title>span:nth-child(2)>input{
+    width:90%;
+    height:40px;
+    border-radius: 10px;
+    padding-left:20px;
+    box-sizing: border-box;
+
+    position: relative;
+    top:-5px;
+}
+
+#movie-preview-view-title>span:nth-child(3){
+    width:10%;
+    background-color: paleturquoise;
+}
+#movie-preview-view-title>span:nth-child(4){
+    width:15%;
+    background-color: palevioletred;
+}
+#movie-preview-view-title>span:nth-child(5){
+    width:5%;
+    background-color: pink;
+}
+#movie-preview-view-title>span:nth-child(6){
+    width:10%;
+    background-color: powderblue;
+}
+
+#movie-preview-view-attach{
+    width:100%;
+    height:50px;
+    background-color: darkmagenta;
+}
+#movie-preview-view-attach>span{
+    float:left;
+    height:100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+#movie-preview-view-attach>span:first-child{
+    width:110px;
+    background-color: palegreen;
+}
+#movie-preview-view-attach>span:nth-child(2){
+    background-color: palevioletred;
+}
+
+
+#movie-preview-view-contents{
+    width:100%;
+    height:500px;
+    background-color: darkgoldenrod;
+    padding-top:15px;
+    box-sizing: border-box;
+}
+#movie-preview-view-contents-inner{
+    width:95%;
+    height:95%;
+    margin:0 auto;
+    background-color: #fff;
+}
+#movie-preview-view-prev-next{
+    width:100%;
+    height:100px;
+    background-color: darkturquoise;
+}
+#movie-preview-view-prev-next>div{
+    float:left;
+    width:50%;
+    height:100%;
+}
+#prev-title{
+    background-color: mediumaquamarine;
+}
+#next-title{
+    background-color: mediumorchid;
+}

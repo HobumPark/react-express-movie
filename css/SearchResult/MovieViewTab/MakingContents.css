@@ -1,0 +1,181 @@
+
+#making-contents{
+    width:95%;
+    /* height:95%; */
+    margin:0 auto;
+    background-color: lightblue;
+}
+/*감독*/
+#making-contents>#director{
+    width:100%;
+    height:300px;
+    background-color: pink;
+}
+#making-contents>#director>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+}
+#making-contents>#director>#director-contents{
+    width:100%;
+    height:90%;
+    background-color: powderblue;
+}
+
+#profile{
+    display:inline-block;
+    width:340px;
+    height:180px;
+    background-color: thistle;
+}
+#profile>#profile-image{
+    float:left;
+    width:120px;
+    height:100%;
+    background-color: tan;
+}
+#profile>#short-info{
+    float:left;
+    width:220px;
+    height:100%;
+    background-color: teal;
+}
+
+/*주연*/
+#making-contents>#main-actor{
+    width:100%;
+    height:300px;
+    background-color: palegreen;
+}
+#making-contents>#main-actor>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+}
+#making-contents>#main-actor>#main-actor-contents{
+    width:100%;
+    height:90%;
+    background-color: powderblue;
+}
+/*출연*/
+#making-contents>#actor{
+    width:100%;
+    /*height:300px; */
+    background-color: brown;
+}
+#making-contents>#actor>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+}
+#making-contents>#actor>#actor-contents{
+    width:100%;
+    /* height:90%; */
+    background-color: powderblue;
+}
+/*제작진*/
+#making-contents>#maker{
+    width:100%;
+    /* height:600px; */
+    padding:10px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+#making-contents>#maker>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+/*내용*/
+#maker-contents>div{
+    display:block;
+    width:100%;
+    height:60px;
+    background-color: pink;
+    margin-bottom: 5px;
+}
+/*제목*/
+#maker-contents>div>span{
+    float:left;
+    width:10%;
+    height:60px;
+    background-color: palegreen;
+}
+#maker-contents>div>div{
+    display:inline-block;
+    background-color: palegoldenrod;
+    margin-right:10px;
+}
+#maker-contents>div>div>span{
+    background-color: palevioletred;
+    margin-right:10px;
+}
+#movie-company{
+    padding:10px;
+    box-sizing: border-box;
+}
+#movie-company>h1{
+    font-size:24px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+
+/*배급*/
+#distributer-list{
+    display:block;
+    width:100%;
+    /* height:60px; */
+    background-color: pink;
+    margin-bottom: 5px;
+}
+
+#distributer-element{
+    display:block;
+    background-color: palegreen;
+    margin-bottom:10px;
+}
+#distributer-element>span{
+    display:inline-block;
+    background-color: palevioletred;
+    margin-right:10px;
+}
+
+/*수입*/
+#import-list{
+    display:block;
+    width:100%;
+    /* height:60px; */
+    background-color: pink;
+    margin-bottom: 5px;
+}
+#import-element{
+    background-color: palegreen;
+    display:block;
+    margin-bottom:10px;
+}
+#import-element>span{
+    display:inline-block;
+    background-color: palevioletred;
+    margin-right:10px;
+}
+
+/*제공*/
+#provider-list{
+    display:block;
+    width:100%;
+    /* height:60px; */
+    background-color: pink;
+    margin-bottom: 5px;
+}
+
+#provider-element{
+    display:block;
+    background-color: palegreen;
+    margin-bottom:10px;
+}
+#provider-element>span{
+    display:inline-block;
+    background-color: palevioletred;
+    margin-right:10px;
+}

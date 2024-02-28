@@ -1,0 +1,112 @@
+#comment{
+  width:90%;
+  height:200px;
+  background-color: paleturquoise;
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+
+#comment-row-01{
+  width:100%;
+  height:50px;
+  background-color: palegreen;
+  position: relative;
+}
+
+#comment-row-01>#rating-star{
+  position: relative;
+  display:inline-block;
+  background-color: cadetblue;
+  margin-right:30px;
+  left:10px;
+  top:10px;
+}
+#comment-row-01>span{
+  background-color: cornsilk;
+  position: absolute;
+  left:90px;
+  top:10px;
+}
+
+#rating-star>.red-star{
+  position: absolute;
+  left:0px;
+  top:3px;
+}
+
+#comment-row-02{
+  width:100%;
+  height:100px;
+  background-color: palevioletred;
+}
+
+#comment-row-03{
+  width:100%;
+  height:50px;
+  background-color: peachpuff;
+}
+
+#comment-row-03>.nick-name{
+  color: #396DBA;
+  font-weight: bold;
+  font-size:13px;
+  margin-right:10px;
+}
+
+#comment-row-03>#reco-non-reco-area{
+  float:right;
+  position: relative;
+  right:20px;
+  top:10px;
+}
+#comment-row-03>#reco-non-reco-area>span{
+  display:inline-block;
+}
+#recommendation-num{
+  color:#E8444F;
+  margin-right:20px;
+  font-weight: bold;
+}
+#non-recommendation-num{
+  color:#4884E6;
+  font-weight: bold;
+}
+
+.recommendation{
+  display:inline-block;
+  background: url('../../../../images/sprites/icon_pc_220622.png') no-repeat -125px -247px;
+	width: 17px;
+	height: 16px;
+  cursor: pointer;
+  transform: scale(1.5);
+  margin-right:5px;
+}
+
+.recommendation-active {
+  display:inline-block;
+	background: url('../../../../images/sprites/icon_pc_220622.png') no-repeat -125px -267px;
+	width: 17px;
+	height: 16px;
+  cursor: pointer;
+  transform: scale(1.5);
+  margin-right:5px;
+}
+
+.non-recommendation{
+  display:inline-block;
+	background: url('../../../../images/sprites/icon_pc_220622.png') no-repeat -143px -247px;
+	width: 17px;
+	height: 16px;
+  cursor: pointer;
+  transform: scale(1.5);
+  margin-right:5px;
+}
+
+.non-recommendation-active {
+	background: url('../../../../images/sprites/icon_pc_220622.png') no-repeat -143px -267px;
+	width: 17px;
+	height: 16px;
+  cursor: pointer;
+  transform: scale(1.5);
+  margin-right:5px;
+}

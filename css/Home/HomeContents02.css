@@ -1,0 +1,96 @@
+
+#home-contents02{
+    width:100%;
+    height:250px;
+    background-color: paleturquoise;
+    border-top: 3px solid #f2f2f2;
+}
+#home-contents02>#head{
+    width:100%;
+    height:50px;
+    background-color: rosybrown;
+    padding:20px 30px;
+    box-sizing: border-box;
+}
+#home-contents02>#head>a{
+    float:right;
+    font-size:13px;
+    font-weight: bold;
+    color:#000000;
+
+    position: relative;
+    top:-20px;
+}
+#home-contents02>#contents{
+    width:100%;
+    height:250px;
+    background-color: royalblue;
+    padding:10px 30px;
+    box-sizing: border-box;
+}
+
+#home-contents02>#contents>div{
+    float:left;
+    width:24%;
+    height:130px;
+    /* background-color: rebeccapurple; */
+    margin-right:5px;
+}
+#home-contents02>#contents>div>img{
+    width:224px;
+    height:130px;
+    display:block;
+    margin:0 auto;
+}
+#home-contents02>#contents>div>span{
+    display:block;
+    background-color: antiquewhite;
+    margin-bottom:5px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#home-contents02>#contents>div>span:nth-child(2){
+    color:#004CBB;
+    font-weight: bold;
+}
+#home-contents02>#contents>div>span:nth-child(2):hover{
+    text-decoration: underline;
+}
+#home-contents02>#contents>div>span:nth-child(3){
+    color:#666666;
+}
+#home-contents02>#contents>div>span:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+.icon{
+    background: url('../../images/sprites/h_tx_sp5.png');
+    display:block;
+}
+
+.pre-movie{
+    width:55px;
+    height:20px;
+    background-position-x:-52px;
+    background-position-y:-15px;
+}
+
+.play {
+    display:block;
+    background: url('../../images/sprites/sp_ico3.png') no-repeat -101px -450px;
+	width: 26px;
+	height: 26px;
+
+    position: relative;
+    top:-25px;
+}
+
+.right-arrow {
+    display:inline-block;
+	background: url('../../images/sprites/sp_btn.png') no-repeat -260px -1234px;
+	width: 5px;
+	height: 9px;
+}

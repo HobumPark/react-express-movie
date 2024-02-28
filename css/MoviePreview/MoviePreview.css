@@ -1,0 +1,44 @@
+
+#movie-preview{
+    width:98%;
+    height:46px;
+    background-color: palegreen;
+    margin:0 auto;
+    margin-bottom: 3px;
+}
+
+#movie-preview>span{
+    float:left;
+    height:100%;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+}
+#movie-preview>span:first-child{
+    width:5%;
+    background-color: chocolate;
+}
+#movie-preview>span:nth-child(2){
+    width:50%;
+    background-color: cornflowerblue;
+}
+#movie-preview>span:nth-child(2):hover{
+    text-decoration: underline;
+}
+
+#movie-preview>span:nth-child(3){
+    width:10%;
+    background-color: darkcyan;
+}
+#movie-preview>span:nth-child(4){
+    width:15%;
+    background-color: darkgoldenrod;
+}
+#movie-preview>span:nth-child(5){
+    width:10%;
+    background-color: darkkhaki;
+}
+#movie-preview>span:nth-child(6){
+    width:10%;
+    background-color: darkolivegreen;
+}
