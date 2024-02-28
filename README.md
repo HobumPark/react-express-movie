@@ -1,3 +1,7 @@
+React - Express - MySQL 영화 검색 사이트
+
+홈 - 검색 결과 - 영화 상세보기 - 영화 상세 슬라이드 - 게시판 (글목록, 글상세보기, 글쓰기, 글삭제) - 로그인창 (카카오 API)
+
 ![GOMCAM 20240127_1615200262](https://github.com/HobumPark/react-express-movie/assets/25094629/4a015e32-1fc5-4896-b1c3-4abf204d5694)
 ![GOMCAM 20240127_1615160548](https://github.com/HobumPark/react-express-movie/assets/25094629/f2882f7c-1073-4b80-bedc-6c15d0629dac)
 ![GOMCAM 20240127_1615100296](https://github.com/HobumPark/react-express-movie/assets/25094629/14de898b-1ab5-43a3-88e6-26d4131179ea)
